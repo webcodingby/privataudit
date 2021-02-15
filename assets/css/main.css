@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/main_bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  border-bottom: 2px solid #fff;
+}
+
+.logo {
+  margin-top: -1.5rem;
+}
+
+ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  /* or 18px */
+  letter-spacing: 0.14em;
+  color: #FFFFFF !important;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+}
+
+.content {
+  
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+}
